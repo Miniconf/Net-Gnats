@@ -9,11 +9,27 @@ Repository for the Net::Gnats module.
 Version
 -------
 
-- The current CPAN release version is 0.18.
-- The current working version is 0.19.
+- The current CPAN release version is 0.22.
+- The current working version is 0.22.
+
+Changes in 0.22
+---------------
+- RT 108273 remove PREREQ_FATAL
+
+Changes in 0.21
+---------------
+- Fix bug relating to scopes and change required field.  It's a temporary Fix
+  until something more permanent can be put into place; effectively, it just
+  forces the change-required field to match properly.
+
+Changes in 0.20
+---------------
+- Add capability to get any number of fields starting with a specific string.
+- Misc fixes and documentation amendments from Miniconf NYC.
 
 Changes in 0.19
 ---------------
+- Add 'scopes' capability to fields.
 
 Changes in 0.18
 ---------------

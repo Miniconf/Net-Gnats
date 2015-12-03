@@ -1,7 +1,7 @@
 package Net::Gnats::Constants;
 use strictures;
 BEGIN {
-  $Net::Gnats::Constants::VERSION = '0.19';
+  $Net::Gnats::Constants::VERSION = '0.22';
 }
 use vars qw($VERSION);
 
